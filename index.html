@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8"> <!-- UTF-8 is human readable standard-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="./style/style.css">
         <title>Webpage</title>
     </head>
     <body>
@@ -10,21 +11,28 @@
         <!-- IDs and classes -->
 
         <div id="header">
-            <h1>Sports Paradise</h1>
+          <h1>Sports Paradise</h1>
         </div>
 
         <div id="banner">
-            <h2>Welcome to our website</h2>
-            <p>This is the best <span>website for sports blog!!!</span></p>
-            <img src="./img/background.png" alt="This is the banner"  width="30%"/>
+          <h2>Welcome to our website. 😄</h2>
+          <p>This is the best <span>website for sports blog!!!</span></p>
+          <!-- <img src="./img/banner.png" alt="This is the banner"  width="30%"/> -->
         </div>
 
         <div id="navigation">
-            <a href="./subscribe/subscribe.html">Subscribe Here</a> <br/>
+
+          <div class="subscribe">
+            <a href="./subscribe/subscribe.html">Subscribe Here</a><br/>
+          </div>
+
+          <div class="knowMore">
             <a href="https://www.google.com/" target="_blank">Click to know More!!!</a> <br />
+          </div>
+
         </div>
 
-        <hr />
+
 
         <div id="blog-list">
             <h2>Here are some of our best blogs</h2>
@@ -64,10 +72,10 @@
 
             <div class="contact-method">
                 <h3>Social Media</h3>
-                <p><a href="#"> Instagram</a></p>
+                <p><a class="footer-link" href="#"> Instagram</a></p>
             </div>
         </div>
 
-        <a href="#header">Go back to the top!</a>
+        <a id="goToTop" href="#header">Go back to the top!</a>
     </body>
 </html>

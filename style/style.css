@@ -1,0 +1,161 @@
+body{
+  background-color: #40ABD9;
+  color: white;
+  background-image: url("../img/banner.png");
+  background-position: center;
+  background-size: 33%;
+  font-family:Georgia;
+}
+/* Headder and Banner Style */
+div#header h1{
+  color: white;
+  text-align: center;
+  font-size: 100px;
+  position: relative;
+}
+
+div#banner{
+  text-align: center;
+  position: relative;
+  top: -50px;
+}
+
+div#banner h2{
+  font-size: 31px;
+
+}
+div#banner p{
+  font-size: 19px;
+}
+
+div#banner img{
+  width: 50%;
+  background-image:
+}
+
+/* Navigations */
+div#navigation{
+  position: relative;
+  max-width: 100%;
+  padding-left: 15%;
+}
+
+div#navigation div.subscribe{
+  background-color: #0E5F8E;
+  display: inline-block;
+  white-space: nowrap;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 15%;
+  padding-right: 15%;
+  border-radius: 50px;
+}
+
+
+
+div#navigation div.subscribe a{
+  color: white;
+  text-decoration: none;
+  font-family:Georgia;
+  font-size: 25px;
+}
+
+div#navigation div.knowMore{
+  background-color: #0E5F8E;
+  display: inline-block;
+  white-space: nowrap;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 15%;
+  padding-right: 15%;
+  border-radius: 50px;
+}
+
+div#navigation div.knowMore a{
+  color: white;
+  text-decoration: none;
+  font-family:Georgia;
+  font-size: 25px;
+}
+
+div#navigation div.subscribe a:hover{
+  color: #EA8C00;
+}
+
+div#navigation div.knowMore a:hover{
+  color: #E17200;
+}
+
+
+
+/* Blog Box Style */
+
+li[class ~= blog]{
+    background-color: #40ABD9;
+    margin: 30px 20px;
+    padding: 10px 5px;
+    border: 4px solid #0E5F8E;
+    width: 250px;
+    height: 200px;
+    text-align: center;
+    display: inline-block;
+    overflow: auto;
+}
+
+li[class ~= blog] p a{
+  display: block;
+  margin: 10px;
+  background-color: #0E5F8E;
+  border-radius: 50px;
+  padding: 7px;
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+li[class ~= blog]:hover{
+  background-color: #0E5F8E;
+}
+
+li[class ~= blog] p a:hover{
+  background-color: #40ABD9;
+}
+
+/* About us Style */
+#about-section{
+  text-align: center;
+  font-size: 111%
+}
+
+/* Style for Footer */
+.contact-method{
+  display: inline-block;
+  width: 32%;
+  text-align: center;
+  white-space: nowrap;
+  max-width: 33%;
+  background-color: #0E5F8E;
+}
+
+
+#contact-section{
+  max-width: 100%;
+  background-color: #084367;
+  color: white;
+}
+
+#contact-section h2{
+  text-align: center;
+  padding-top: 10px;
+
+}
+
+a.footer-link{
+  color: white;
+}
+
+a#goToTop{
+  display: block;
+  margin-top: 50px;
+  text-decoration: none;
+  color: white;
+}
